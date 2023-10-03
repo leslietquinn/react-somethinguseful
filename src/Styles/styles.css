@@ -1,0 +1,88 @@
+	
+	.toasty {
+		width: 480px !important;
+	}
+
+	/**
+	 * @note	for some reason (I don't care what), Bootstrap 5's truncate doesn't work, so roll 
+	 * 			our own
+	 */
+	
+	.truncate-1 {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+	}
+
+	.truncate-2 {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+
+	.card-body > span {
+		color: #666;
+	}
+
+	.card-body > span > a {
+		color: #666;
+		text-decoration: none;
+	}
+
+	.card-body > span > a:hover {
+		color: #666;
+		text-decoration: underline;
+	}
+
+	.card-body > h3 {
+		color: #000;
+	}
+
+	.card-body > h3 > a {
+		color: #000;
+		text-decoration: none;
+	}
+
+	h4, h5, h6, p, div, span {
+		font-size: medium;
+	}
+
+	h3 {
+		font-size: large;
+	}
+
+	h1, h2 {
+		font-size: xx-large;
+	}
+
+	label {
+		font-size: large;
+	}
+	
+	body {
+		background-color: #efefef;
+	}
+
+	#mast {}
+
+	#mast a {
+		padding: 8px;
+		min-width: 128px;
+		text-align: center;
+
+		color: #000;
+		text-decoration: none;
+	}
+
+	#mast a.submit {
+		font-weight: bold;
+	}
+
+	#mast a.disabled {
+		color: #666;
+		cursor: default;
+	}
